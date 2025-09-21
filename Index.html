@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Statistika Akademik & Konsultasi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Statistika Akademik & Konsultasi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#materi">Materi</a></li>
+                    <li><a href="#tools">Analisis Data</a></li>
+                    <li><a href="#hotline">Hotline</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Belajar Statistika dengan Mudah dan Interaktif</h2>
+            <p>
+                Materi lengkap mulai dari dasar hingga tingkat lanjut, dilengkapi contoh penerapan di bidang komputer, AI, big data, dan lainnya.
+            </p>
+            <a href="#materi" class="btn-primary">Mulai Belajar</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="materi">
+            <h2>Materi Pembelajaran Statistika</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">1. Pengantar Dasar Statistika</button>
+                    <div class="accordion-content">
+                        <p>Statistika adalah ilmu yang mempelajari cara mengumpulkan, menganalisis, menyajikan, dan menginterpretasi data.</p>
+                        <p><strong>Contoh:</strong> Menghitung rata-rata nilai mahasiswa.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">2. Statistika Deskriptif</button>
+                    <div class="accordion-content">
+                        <p>Statistika deskriptif berfokus pada penyajian data secara ringkas dan informatif.</p>
+                        <p><strong>Contoh:</strong> Mean, median, modus, varians, standar deviasi.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">3. Statistika Inferensial Parametrik</button>
+                    <div class="accordion-content">
+                        <p>Menggunakan asumsi distribusi data untuk membuat inferensi.</p>
+                        <p><strong>Contoh:</strong> Uji t, ANOVA, regresi linier.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">4. Statistika Inferensial Nonparametrik</button>
+                    <div class="accordion-content">
+                        <p>Tidak bergantung pada asumsi distribusi data.</p>
+                        <p><strong>Contoh:</strong> Uji Mann-Whitney, uji Kruskal-Wallis.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">5. Teori Statistika Tingkat Lanjut</button>
+                    <div class="accordion-content">
+                        <p>Materi lanjutan seperti teori estimasi, uji hipotesis kompleks, dan statistika multivariat.</p>
+                        <p><strong>Contoh penerapan:</strong> Analisis big data, machine learning, AI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools">
+            <h2>Fitur Analisis Data Statistik</h2>
+            <p>Pilih jenis uji statistik yang ingin Anda lakukan:</p>
+            <select id="test-select">
+                <option value="">-- Pilih Uji Statistik --</option>
+                <option value="mean">Uji Mean (One Sample t-test)</option>
+                <option value="correlation">Uji Korelasi (Pearson)</option>
+                <option value="regression">Uji Regresi Linier</option>
+                <option value="validity">Uji Validitas Instrumen</option>
+                <option value="reliability">Uji Reliabilitas Instrumen (Cronbach's Alpha)</option>
+            </select>
+
+            <div id="test-form-container"></div>
+
+            <div id="result-container"></div>
+        </section>
+
+        <section id="hotline">
+            <h2>Layanan Hotline Interaktif</h2>
+            <p>Hubungi kami untuk konsultasi dan tanya jawab seputar statistika dan pengolahan data.</p>
+            <form id="chat-form">
+                <textarea id="chat-input" placeholder="Ketik pesan Anda di sini..." rows="3" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+            <div id="chat-box"></div>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak & Informasi</h2>
+            <p><strong>Email:</strong> statistika@domainanda.com</p>
+            <p><strong>Telepon:</strong> +62 812 3456 7890</p>
+            <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Jakarta, Indonesia</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Statistika Akademik & Konsultasi. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
